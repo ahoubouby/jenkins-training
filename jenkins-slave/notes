@@ -1,0 +1,2 @@
+copy fingerprint to jenkins-slave
+ssh-keyscan -p 2222 @ip >> /var/jenkins_home/.ssh/know_hosts
